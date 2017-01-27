@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>RGB LEDs</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="/styles.css" type="text/css">
+  </head>
+  <body>
+    <h1>RGB LEDs</h1>
+    <p><strong>Control your section with YOUR phone!</strong></p>
+    <p>When you change the values of the red, green, and blue inputs below, it will send the new color to the Arduino and update your section of the LED display. If more people join, it will split into more sections!</p>
+    <p>
+      Can you make the following colors?<br><br>
+      <span class="color" style="color: #f0b">pink</span>
+      <span class="color" style="color: #f80">orange</span>
+      <span class="color" style="color: turquoise">turquoise</span>
+      <span class="color" style="color: yellow">yellow</span>
+      <span class="color" style="color: white">white</span>
+    </p>
+
+    <form class="clearfix">
+      <label for="red">Red:</label>
+      <input id="red" type="range" min="0" max="128" step="1" value="0">
+
+      <label for="green">Green:</label>
+      <input id="green" type="range" min="0" max="128" step="1" value="0">
+
+      <label for="blue">Blue:</label>
+      <input id="blue" type="range" min="0" max="128" step="1" value="0">
+    </form>
+
+    <!-- include the client socket library-->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./2-client.js"></script>
+  </body>
+</html>

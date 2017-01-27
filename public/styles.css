@@ -16,6 +16,27 @@ body {
   font-family: roboto, sans-serif;
   overflow: hidden;
 }
+.intro {
+  margin: 0;
+  padding: 0;
+}
+.intro li {
+  display: block;
+}
+.intro a {
+  display: block;
+  font-size: 1.6em;
+  margin: 1em;
+  background: #ddd linear-gradient(to bottom, #ddd, #bbb);
+  border-radius: 5px;
+  padding: 1em;
+  text-align: center;
+  text-shadow: .5px .5px 0 rgba(255, 255, 255, 0.5);
+}
+.intro a {
+  color: black;
+  text-decoration: none;
+}
 h1 {
   margin-top: 0;
 }

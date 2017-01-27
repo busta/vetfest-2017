@@ -63,7 +63,6 @@ five.Board().on('ready', function() {
         // Set the new colors
         setStripColor(state);
 
-        // client.emit('rgb', data);
         client.broadcast.emit('rgb', data);
       });
     });
