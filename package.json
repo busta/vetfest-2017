@@ -1,7 +1,8 @@
 {
-  "name": "LED-workshop",
+  "name": "vetfest-2017",
+  "description": "Interactive workshop designed to introduce people to web-powered electronics.",
+  "repository": "git@github.com:busta/vetfest-2017.git",
   "license": "MIT",
-  "private": true,
   "dependencies": {
     "express": "^4.14.0",
     "johnny-five": "^0.10.6",
@@ -9,6 +10,6 @@
     "socket.io": "^1.7.2"
   },
   "engines": {
-    "node": "4.4.7"
+    "node": "4.2.1"
   }
 }
